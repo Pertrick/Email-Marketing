@@ -34,7 +34,7 @@ class SendCampaignMail
         extract($sendCampaign);
         $date_time= date('Y-m-d H:i:s', strtotime("$campaign->delivery_date, $campaign->delivery_time"));
         $schedule_date =  Carbon::parse($date_time);
-        dd($schedule_date);
+        // dd($schedule_date);
 
         foreach ($campaignSubscribers as $campaignSubscriber) {
             Mail::to($campaignSubscriber)
