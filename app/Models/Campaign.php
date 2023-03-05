@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Models\EmailList;
+use App\Models\Subscriber;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
@@ -15,5 +16,9 @@ class Campaign extends Model
 
     public function emailLists(){
         return $this->belongsToMany(EmailList::class);
+    }
+
+    public function subscribers(){
+        return $this->belongsToMany(Subscriber::class);
     }
 }

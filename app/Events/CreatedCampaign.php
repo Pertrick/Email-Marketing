@@ -21,7 +21,7 @@ class CreatedCampaign
      *
      * @return void
      */
-    public function __construct(Campaign $campaign)
+    public function __construct($campaign)
     {
         $this->campaign = $campaign;
     }

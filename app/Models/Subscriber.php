@@ -2,8 +2,9 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Models\Campaign;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Subscriber extends Model
 {
@@ -17,4 +18,9 @@ class Subscriber extends Model
         'phone',
         'country'
     ];
+
+
+    public function campaigns(){
+        return $this->belongsToMany(Campaign::class);
+    }
 }

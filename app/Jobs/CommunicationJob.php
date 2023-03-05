@@ -2,6 +2,7 @@
 
 namespace App\Jobs;
 
+use App\Events\CreatedCampaign;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldBeUnique;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -31,7 +32,8 @@ class CommunicationJob implements ShouldQueue
      */
     public function handle()
     {
-        info('communication received');
-        info($this->campaign);
+        event(new CreatedCampaign($this->campaign));
+        
+        // info($this->campaign);
     }
 }

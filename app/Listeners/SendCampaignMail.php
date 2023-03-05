@@ -29,18 +29,32 @@ class SendCampaignMail
      */
     public function handle(CreatedCampaign $event)
     {
+        // $sendCampaign = (new campaignService($event->campaign))->send();
+
+        // extract($sendCampaign);
+        // $date_time= date('Y-m-d H:i:s', strtotime("$campaign->delivery_date, $campaign->delivery_time"));
+        // $schedule_date =  Carbon::parse($date_time);
+        // // dd($schedule_date);
+
+        // foreach ($campaignSubscribers as $campaignSubscriber) {
+        //     Mail::to($campaignSubscriber)
+        //     ->later($schedule_date,
+        //         new CampaignMail($campaign,$campaignSubscriber)
+        //     );
+        // }
+
         $sendCampaign = (new campaignService($event->campaign))->send();
 
         extract($sendCampaign);
-        $date_time= date('Y-m-d H:i:s', strtotime("$campaign->delivery_date, $campaign->delivery_time"));
-        $schedule_date =  Carbon::parse($date_time);
-        // dd($schedule_date);
+        $schedule_date =  Carbon::parse($campaign['schedule_date']);
+        
+        foreach ($subscribers as $subscriber) {
+            Mail::to($subscriber)
+            ->send(new CampaignMail($campaign,$subscriber));
 
-        foreach ($campaignSubscribers as $campaignSubscriber) {
-            Mail::to($campaignSubscriber)
-            ->later($schedule_date,
-                new CampaignMail($campaign,$campaignSubscriber)
-            );
+        $campaign->subscribers()->updateExistingPivot(
+            $subscriber, ['mail_sent_at' => now()])
+            ;   
         }
     }
 }

@@ -2,6 +2,9 @@
 
 namespace App\Services;
 
+use App\Models\Campaign;
+use Illuminate\Support\Facades\DB;
+
 class CampaignService
 {
     public $campaign;
@@ -10,15 +13,30 @@ class CampaignService
     {
         $this->campaign = $campaign;
     }
+
+
+    public function storeCampaignSubscriber(){
+        $campaignArray = $this->campaign;
+
+        $campaign = $campaignArray['campaign'];
+        $campaignSubscribers = $campaignArray['subscribers'];
+        $campaign->subscribers()->attach($campaignSubscribers);
+
+
+    }
+
     public function send()
     {
-        $campaign = $this->campaign;
-        $campaignSubscribers = [];
-        foreach ($campaign->emailLists as $emailList){
-            foreach ($emailList->subscribers as $subscriber) {
-                array_push($campaignSubscribers, $subscriber);
-            }
-        }
-        return compact('campaign','campaignSubscribers');
+        
+     $campaigned =    DB::transaction(function (): array {
+            $this->storeCampaignSubscriber();
+            $campaign= $this->campaign['campaign'];
+            $subscribers = $campaign['subscribers'];
+
+            return compact('subscribers','campaign');
+        });
+       
+        return $campaigned;
+
     }
 }

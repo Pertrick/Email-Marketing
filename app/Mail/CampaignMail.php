@@ -23,7 +23,7 @@ class CampaignMail extends Mailable
      *
      * @return void
      */
-    public function __construct(Campaign $campaign, Subscriber $subscriber)
+    public function __construct($campaign, $subscriber)
     {
         $this->campaign = $campaign;
         $this->subscriber = $subscriber;
@@ -37,12 +37,13 @@ class CampaignMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            from: new Address($this->campaign->sender_email, $this->campaign->sender_name),
+            from: new Address($this->campaign['from_email']),
             replyTo:[
-             new Address($this->campaign->reply_to),
+             new Address('noreply@gmail.com'),
             ],
             subject: 'Campaign Mail',
         );
+
     }
 
     /**
