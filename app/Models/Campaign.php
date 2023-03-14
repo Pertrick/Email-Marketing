@@ -13,6 +13,14 @@ class Campaign extends Model
 
     const READY =0, SENDING=1, DONE = 2;
 
+    protected $fillable = [
+        "name",
+        "reply_to",
+        "sender_name",
+        "sender_email",
+        "delivery_date"
+    ];
+
 
     public function emailLists(){
         return $this->belongsToMany(EmailList::class);
