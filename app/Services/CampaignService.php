@@ -13,6 +13,7 @@ class CampaignService
     public function __construct($campaign)
     {
         $this->campaign = $campaign;
+        $this->storeCampaignSubscriber();
     }
 
 
@@ -21,41 +22,43 @@ class CampaignService
 
         $campaign = $campaignArray['campaign'];
 
-       Campaign::create([
-            "name" => $campaign->title,
-            "reply_to" => $campaign->reply_to,
-            "sender_name" => $campaign->from_name,
-            "sender_email" => $campaign->from_email,
-            "delivery_date" => $campaign->schedule_date
+      $campaignModel =  Campaign::create([
+            "name" => $campaign['title'],
+            "reply_to" => $campaign['reply_to'],
+            "sender_name" => $campaign['from_name'],
+            "sender_email" => $campaign['from_email'],
+            "delivery_date" => $campaign['schedule_date']
         ]);
 
         $campaignSubscribers = $campaignArray['subscribers'];
 
         foreach($campaignSubscribers as $subscriber){
           $subscriber =   Subscriber::create([
-                "name" => $subscriber->fname ." " .$subscriber->lname,
-                "email" => $subscriber->email,
-                "phone" => $subscriber->phone,
-                "country" => $subscriber->country
+                "name" => $subscriber['fname'] ." " .$subscriber['lname'],
+                "email" => $subscriber['email'],
+                "phone" => $subscriber['phone'],
+                "country" => $subscriber['country']
             ]);
 
-            $campaign->subscribers()->attach($subscriber);
+            $campaignModel->subscribers()->attach($subscriber);
         }
     
     }
 
-    public function send()
-    {
+    // public function send()
+    // {
         
-     $campaigned =  DB::transaction(function (): array {
-            $this->storeCampaignSubscriber();
-            $campaign= $this->campaign['campaign'];
-            $subscribers = $campaign['subscribers'];
+    //  $campaigned =  DB::transaction(function (): array {
+    //         $this->storeCampaignSubscriber();
+    //         $campaign= $this->campaign['campaign'];
+    //         $subscribers = $this->campaign['subscribers'];
 
-            return compact('subscribers','campaign');
-        });
+    //        // $subscribers
+
+    //         return compact('subscribers','campaign');
+    //     });
        
-        return $campaigned;
+    //     return $campaigned;
 
-    }
+    // }
 }

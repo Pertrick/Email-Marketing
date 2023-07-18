@@ -27,6 +27,6 @@ class Campaign extends Model
     }
 
     public function subscribers(){
-        return $this->belongsToMany(Subscriber::class);
+        return $this->belongsToMany(Subscriber::class)->withPivot('mail_sent_at');
     }
 }

@@ -37,7 +37,7 @@ class CampaignMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            from: new Address($this->campaign['from_email']),
+            from: new Address($this->campaign->sender_email),
             replyTo:[
              new Address('noreply@gmail.com'),
             ],

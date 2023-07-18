@@ -4,6 +4,7 @@ namespace App\Listeners;
 
 use Mail;
 use Carbon\Carbon;
+use App\Models\Campaign;
 use App\Mail\CampaignMail;
 use App\Events\CreatedCampaign;
 use App\Services\CampaignService;
@@ -43,18 +44,27 @@ class SendCampaignMail
         //     );
         // }
 
-        $sendCampaign = (new campaignService($event->campaign))->send();
+        $sendCampaign = (new campaignService($event->campaign));
 
-        extract($sendCampaign);
-        $schedule_date =  Carbon::parse($campaign['schedule_date']);
-        
-        foreach ($subscribers as $subscriber) {
-            Mail::to($subscriber)
-            ->send(new CampaignMail($campaign,$subscriber));
+        $campaigns = Campaign::with([
+            'subscribers' =>
+            fn ($query) => $query->wherePivot('mail_sent_at', Null)
+        ])
+            ->where('delivery_date', '<=', now())->get();
 
-        $campaign->subscribers()->updateExistingPivot(
-            $subscriber, ['mail_sent_at' => now()])
-            ;   
+
+        info($campaigns);
+
+        foreach ($campaigns as $campaign) {
+            foreach ($campaign->subscribers as $subscriber) {
+                Mail::to($subscriber)
+                    ->send(new CampaignMail($campaign, $subscriber));
+
+                $campaign->subscribers()->updateExistingPivot(
+                    $subscriber,
+                    ['mail_sent_at' => now()]
+                );
+            }
         }
     }
 }

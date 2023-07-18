@@ -34,6 +34,5 @@ class CommunicationJob implements ShouldQueue
     {
         event(new CreatedCampaign($this->campaign));
         
-        // info($this->campaign);
     }
 }
