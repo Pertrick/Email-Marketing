@@ -39,7 +39,7 @@ class CampaignMail extends Mailable
         return new Envelope(
             from: new Address($this->campaign->sender_email),
             replyTo:[
-             new Address('noreply@gmail.com'),
+             new Address($this->campaign->reply_to),
             ],
             subject: $this->campaign->name,
         );
