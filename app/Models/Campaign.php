@@ -18,7 +18,8 @@ class Campaign extends Model
         "reply_to",
         "sender_name",
         "sender_email",
-        "delivery_date"
+        "delivery_date",
+        "content"
     ];
 
 

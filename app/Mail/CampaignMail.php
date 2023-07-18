@@ -41,7 +41,7 @@ class CampaignMail extends Mailable
             replyTo:[
              new Address('noreply@gmail.com'),
             ],
-            subject: 'Campaign Mail',
+            subject: $this->campaign->name,
         );
 
     }

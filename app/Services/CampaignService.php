@@ -27,7 +27,8 @@ class CampaignService
             "reply_to" => $campaign['reply_to'],
             "sender_name" => $campaign['from_name'],
             "sender_email" => $campaign['from_email'],
-            "delivery_date" => $campaign['schedule_date']
+            "delivery_date" => $campaign['schedule_date'],
+            "content" => $campaign['content']
         ]);
 
         $campaignSubscribers = $campaignArray['subscribers'];
