@@ -5,6 +5,7 @@ namespace App\Services;
 use App\Models\Campaign;
 use App\Models\Subscriber;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 
 class CampaignService
 {
@@ -20,13 +21,13 @@ class CampaignService
     public function storeCampaignSubscriber(){
         $campaignArray = $this->campaign;
 
-        echo "CampaignService -> campaignArray";
-        echo $campaignArray;
+        Log::info("CampaignService -> campaignArray");
+        Log::info(json_encode($campaignArray));
 
         $campaign = $campaignArray['campaign'];
 
-        echo "CampaignService -> campaign";
-        echo $campaign;
+        Log::info("CampaignService -> campaign");
+        Log::info(json_encode($campaign));
 
       $campaignModel =  Campaign::create([
             "name" => $campaign['title'],
