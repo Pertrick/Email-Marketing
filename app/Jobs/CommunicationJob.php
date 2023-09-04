@@ -32,8 +32,10 @@ class CommunicationJob implements ShouldQueue
      */
     public function handle()
     {
-        echo "Got Job from Queue";
-        echo $this->campaign;
+
+        echo 'Event: Campaign Created' . PHP_EOL;
+        echo json_encode($this->campaign) . PHP_EOL;
+
         event(new CreatedCampaign($this->campaign));
 
     }
