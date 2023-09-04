@@ -20,7 +20,13 @@ class CampaignService
     public function storeCampaignSubscriber(){
         $campaignArray = $this->campaign;
 
+        echo "CampaignService -> campaignArray";
+        echo $campaignArray;
+
         $campaign = $campaignArray['campaign'];
+
+        echo "CampaignService -> campaign";
+        echo $campaign;
 
       $campaignModel =  Campaign::create([
             "name" => $campaign['title'],
@@ -43,12 +49,12 @@ class CampaignService
 
             $campaignModel->subscribers()->attach($subscriber);
         }
-    
+
     }
 
     // public function send()
     // {
-        
+
     //  $campaigned =  DB::transaction(function (): array {
     //         $this->storeCampaignSubscriber();
     //         $campaign= $this->campaign['campaign'];
@@ -58,7 +64,7 @@ class CampaignService
 
     //         return compact('subscribers','campaign');
     //     });
-       
+
     //     return $campaigned;
 
     // }
