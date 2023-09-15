@@ -6,8 +6,10 @@ use Mail;
 use Carbon\Carbon;
 use App\Models\Campaign;
 use App\Mail\CampaignMail;
+use Illuminate\Support\Str;
 use App\Events\CreatedCampaign;
 use App\Services\CampaignService;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
@@ -57,13 +59,35 @@ class SendCampaignMail
 
         foreach ($campaigns as $campaign) {
             foreach ($campaign->subscribers as $subscriber) {
-                Mail::to($subscriber)
+                try{
+                    Mail::to($subscriber)
                     ->send(new CampaignMail($campaign, $subscriber));
 
-                $campaign->subscribers()->updateExistingPivot(
-                    $subscriber,
-                    ['mail_sent_at' => now()]
-                );
+                    $campaign->subscribers()->updateExistingPivot(
+                        $subscriber,
+                        ['mail_sent_at' => now()]
+                    );
+                }catch(\Exception $e){
+
+                    Mail::purge();
+
+                    Config::set('mail.mailers.smtp.host', config('mail.mailers.backupsmtp.host'));
+                    Config::set('mail.mailers.smtp.port', config('mail.mailers.backupsmtp.port'));
+                    Config::set('mail.mailers.smtp.username', config('mail.mailers.backupsmtp.username'));
+                    Config::set('mail.mailers.smtp.password', config('mail.mailers.backupsmtp.password'));
+                    Config::set('mail.mailers.smtp.encryption', config('mail.mailers.backupsmtp.encrypt'));
+                    Config::set('mail.mailers.smtp.transport', 'smtp');
+
+                    Mail::to($subscriber)
+                    ->send(new CampaignMail($campaign, $subscriber));
+
+                    $campaign->subscribers()->updateExistingPivot(
+                        $subscriber,
+                        ['mail_sent_at' => now()]
+                    );
+            
+                }
+
             }
         }
     }

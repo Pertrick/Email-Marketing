@@ -79,6 +79,17 @@ return [
                 'log',
             ],
         ],
+        'backupsmtp'=> [
+            'transport' => 'smtp',
+            'host' => env('BACKUP_MAIL_HOST', 'smtp.mailgun.org'),
+            'port' => env('BACKUP_MAIL_PORT', 587),
+            'encryption' => env('BACKUP_MAIL_ENCRYPTION', 'tls'),
+            'username' => env('BACKUP_MAIL_USERNAME'),
+            'password' => env('BACKUP_MAIL_PASSWORD'),
+            'timeout' => null,
+            'local_domain' => env('MAIL_EHLO_DOMAIN'),
+            'verify_peer' => false,
+        ],
     ],
 
     /*

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CampaignController;
+use App\Http\Controllers\EmailTrackingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,6 +36,7 @@ Route::middleware('auth')->group(function () {
  */
 
  Route::get('campaign', [CampaignController::class, 'store'])->name('campaign.store');
+ Route::get('/track-email-open/{campaign_id}/{token}', [EmailTrackingController::class,'trackEmailOpen'])->name('track-email-open');
 
 
 
