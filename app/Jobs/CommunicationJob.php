@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Queue\InteractsWithQueue;
+use App\Services\SmtpConfigurationService;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Contracts\Queue\ShouldBeUnique;
@@ -29,17 +30,22 @@ class CommunicationJob implements ShouldQueue
         $this->smtp = $smtp;
     }
 
+   /**
+     * set Smtp Config.
+     *
+     * @return void
+     */
 
     public function setSmtpConfig(){
-     
-        Mail::purge();
 
-        Config::set('mail.mailers.smtp.host', $this->smtp['host']);
-        Config::set('mail.mailers.smtp.port', $this->smtp['port']);
-        Config::set('mail.mailers.smtp.username', $this->smtp['username']);
-        Config::set('mail.mailers.smtp.password', $this->smtp['password']);
-        Config::set('mail.mailers.smtp.encryption', $this->smtp['encrypt']);
-        Config::set('mail.mailers.smtp.transport', 'smtp');
+        (new SmtpConfigurationService())
+        ->setCredentials(
+            $this->smtp['host'],
+            $this->smtp['port'],
+            $this->smtp['username'],
+            $this->smtp['password'],
+            $this->smtp['encrypt']
+        );
 
     }
 
@@ -53,12 +59,9 @@ class CommunicationJob implements ShouldQueue
     {
         echo 'Event: Campaign Created' . PHP_EOL;
         echo json_encode($this->campaign) . PHP_EOL;
-        // echo json_encode($this->smtp) . PHP_EOL;
-
-        echo json_encode($this->setSmtpConfig()). PHP_EOL;
         echo json_encode(Config::get('mail.mailers.smtp')) . PHP_EOL;
 
-
+        $this->setSmtpConfig();
        event(new CreatedCampaign($this->campaign));
     }
 

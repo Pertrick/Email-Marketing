@@ -9,6 +9,7 @@ use App\Mail\CampaignMail;
 use Illuminate\Support\Str;
 use App\Events\CreatedCampaign;
 use App\Services\CampaignService;
+use App\Services\SmtpConfigurationService;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -23,6 +24,17 @@ class SendCampaignMail
     public function __construct()
     {
     }
+
+    
+    public function sendMail($subscriber, $campaign):void{
+        Mail::to($subscriber)
+        ->send(new CampaignMail($campaign, $subscriber));
+
+        $campaign->subscribers()->updateExistingPivot(
+            $subscriber,
+            ['mail_sent_at' => now()]
+        );
+    } 
 
     /**
      * Handle the event.
@@ -54,41 +66,28 @@ class SendCampaignMail
         ])
             ->where('delivery_date', '<=', now())->get();
 
-
-        info($campaigns);
+        // info($campaigns);
 
         foreach ($campaigns as $campaign) {
             foreach ($campaign->subscribers as $subscriber) {
                 try{
-                    Mail::to($subscriber)
-                    ->send(new CampaignMail($campaign, $subscriber));
-
-                    $campaign->subscribers()->updateExistingPivot(
-                        $subscriber,
-                        ['mail_sent_at' => now()]
-                    );
+                    $this->sendMail($subscriber, $campaign);
                 }catch(\Exception $e){
 
-                    Mail::purge();
-
-                    Config::set('mail.mailers.smtp.host', config('mail.mailers.backupsmtp.host'));
-                    Config::set('mail.mailers.smtp.port', config('mail.mailers.backupsmtp.port'));
-                    Config::set('mail.mailers.smtp.username', config('mail.mailers.backupsmtp.username'));
-                    Config::set('mail.mailers.smtp.password', config('mail.mailers.backupsmtp.password'));
-                    Config::set('mail.mailers.smtp.encryption', config('mail.mailers.backupsmtp.encrypt'));
-                    Config::set('mail.mailers.smtp.transport', 'smtp');
-
-                    Mail::to($subscriber)
-                    ->send(new CampaignMail($campaign, $subscriber));
-
-                    $campaign->subscribers()->updateExistingPivot(
-                        $subscriber,
-                        ['mail_sent_at' => now()]
+                   (new SmtpConfigurationService())
+                    ->setCredentials(
+                        config('mail.mailers.backupsmtp.host'),
+                        config('mail.mailers.backupsmtp.port'),
+                        config('mail.mailers.backupsmtp.username'),
+                        config('mail.mailers.backupsmtp.password'),
+                        config('mail.mailers.backupsmtp.encrypt')
                     );
-            
+
+                    $this->sendMail($subscriber, $campaign);
                 }
 
             }
         }
     }
+
 }
