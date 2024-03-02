@@ -9,18 +9,16 @@ use Illuminate\Support\Facades\Log;
 
 class CampaignService
 {
-    public $campaign;
 
-    public function __construct($campaign)
+    public function __construct()
     {
-        $this->campaign = $campaign;
-        $this->storeCampaignSubscriber();
     }
 
 
-    public function storeCampaignSubscriber()
+    public function storeCampaignSubscriber($campaignArray)
     {
-        $campaignArray = $this->campaign;
+       
+        info($campaignArray);
 
         Log::info("CampaignService -> campaignArray");
         Log::info(json_encode($campaignArray));
@@ -31,53 +29,40 @@ class CampaignService
         Log::info(json_encode($campaign));
 
 
-        DB::transaction(function () use ($campaignArray,$campaign) {
-            $campaignModel = Campaign::create([
-                "name" => $campaign['title'],
-                "reply_to" => $campaign['reply_to'],
-                "sender_name" => $campaign['from_name'],
-                "sender_email" => $campaign['from_email'],
-                "delivery_date" => $campaign['schedule_date'],
-                "content" => $campaign['content']
-            ]);
-        
-            $campaignSubscribers = $campaignArray['subscribers'];
-        
-            foreach ($campaignSubscribers as $subscriberData) {
-                $subscriber = Subscriber::create([
-                    "name" => $subscriberData['fname'] . " " . $subscriberData['lname'],
-                    "email" => $subscriberData['email'],
-                    "phone" => $subscriberData['phone'],
-                    "country" => $subscriberData['country']
+        try {
+            return  DB::transaction(function () use ($campaignArray,$campaign) {
+                $campaignModel = Campaign::create([
+                    "name" => $campaign['title'],
+                    "reply_to" => $campaign['from_email'],
+                    "sender_name" => $campaign['from_name'],
+                    "sender_email" => 'test@cheapmailing.com.ng',
+                    "delivery_date" => $campaign['schedule_date'],
+                    "content" => $campaign['content']
                 ]);
+            
+                $campaignSubscribers = $campaignArray['subscribers'];
+                echo json_encode($campaignSubscribers);
+            
+                foreach ($campaignSubscribers as $subscriberData) {
+                    $subscriber = Subscriber::create([
+                        "name" => $subscriberData['fname'],
+                        "email" => $subscriberData['email'],
+                        "phone" => $subscriberData['phone'],
+                        "country" => $subscriberData['country']
+                    ]);
+            
+                    $campaignModel->subscribers()->attach($subscriber);
+                }
+    
+                return $campaignModel;
+            });
+    
+        }
+        catch (\Exception $e) {
+            Log::error('Error creating campaign: ' . $e->getMessage());
+            return null;
+        }
         
-                $campaignModel->subscribers()->attach($subscriber);
-            }
-        });
-
-        // $campaignModel =  Campaign::create([
-        //     "name" => $campaign['title'],
-        //     "reply_to" => $campaign['reply_to'],
-        //     "sender_name" => $campaign['from_name'],
-        //     "sender_email" => $campaign['from_email'],
-        //     "delivery_date" => $campaign['schedule_date'],
-        //     "content" => $campaign['content']
-        // ]);
-
-        // $campaignSubscribers = $campaignArray['subscribers'];
-
-        // foreach ($campaignSubscribers as $subscriber) {
-           
-        //     $subscriber =   Subscriber::create([
-        //         "name" => $subscriber['fname'] . " " . $subscriber['lname'],
-        //         "email" => $subscriber['email'],
-        //         "phone" => $subscriber['phone'],
-        //         "country" => $subscriber['country']
-        //     ]);
-
-        //    $campaignModel->subscribers()->attach($subscriber);
-           
-        // }
     }
 
 }

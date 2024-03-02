@@ -12,7 +12,7 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class CampaignMail extends Mailable
+class CampaignMail extends Mailable implements ShouldQueue
 {
     use Queueable, SerializesModels;
 

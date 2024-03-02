@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CampaignController;
 use App\Http\Controllers\EmailTrackingController;
+use App\Jobs\RepushFailedMailJob;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,6 +40,10 @@ Route::middleware('auth')->group(function () {
  Route::get('/track-email-open/{campaign_id}/{token}', [EmailTrackingController::class,'trackEmailOpen'])->name('track-email-open');
 
 
+ Route::get('repush', function(){
+    dispatch( new RepushFailedMailJob());
+    return 'done';
+ });
 
 
 /**

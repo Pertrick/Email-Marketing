@@ -37,7 +37,7 @@ class CommunicationJob implements ShouldQueue
      */
 
     public function setSmtpConfig(){
-
+ 
         (new SmtpConfigurationService())
         ->setCredentials(
             $this->smtp['host'],
@@ -60,6 +60,7 @@ class CommunicationJob implements ShouldQueue
         echo 'Event: Campaign Created' . PHP_EOL;
         echo json_encode($this->campaign) . PHP_EOL;
         echo json_encode(Config::get('mail.mailers.smtp')) . PHP_EOL;
+
 
         $this->setSmtpConfig();
        event(new CreatedCampaign($this->campaign));

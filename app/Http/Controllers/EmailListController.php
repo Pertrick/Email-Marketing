@@ -14,7 +14,7 @@ class EmailListController extends Controller
      */
     public function index()
     {
-        //
+        
     }
 
     /**

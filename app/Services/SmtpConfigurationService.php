@@ -9,7 +9,7 @@ class SmtpConfigurationService{
 
     public function __construct()
     {
-        Mail::purge();
+       Mail::purge();
     }
 
    

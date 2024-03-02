@@ -47,12 +47,1289 @@ class CommunicationJobCommand extends Command
                     "email" => "udohpertrick@gmail.com",
                     "phone" => '08131219734',
                     "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
+                ],
+                [
+                    'fname' =>  "Patrick",
+                    'lname' => "Udoh",
+                    "email" => "udohpertrick@gmail.com",
+                    "phone" => '08131219734',
+                    "country" => 'Nigeria'
                 ]
-                
             ]
         ];
 
-     
-        // dispatch(new CommunicationJob($campaign));
+        $smtp = [
+            'transport' => 'smtp',
+            'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+            'port' => env('MAIL_PORT', 587),
+            'encrypt' => env('MAIL_ENCRYPTION', 'tls'),
+            'username' => env('MAIL_USERNAME'),
+            'password' => env('MAIL_PASSWORD'),
+            'timeout' => null,
+            'local_domain' => env('MAIL_EHLO_DOMAIN'),
+            'verify_peer' => false,
+        ];
+
+        dispatch(new CommunicationJob($campaign, $smtp));
     }
 }
