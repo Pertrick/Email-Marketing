@@ -28,6 +28,6 @@ class Campaign extends Model
     }
 
     public function subscribers(){
-        return $this->belongsToMany(Subscriber::class)->withPivot('mail_sent_at');
+        return $this->belongsToMany(Subscriber::class)->withPivot(['tracking_token','mail_sent_at']);
     }
 }

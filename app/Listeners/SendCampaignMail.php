@@ -48,6 +48,7 @@ class SendCampaignMail implements ShouldQueue
                 ->wherePivot('created_at', '<', $today . ' 23:59:59')
                 ->cursor();
 
+
             foreach ($subscribers as $subscriber) {
                 SendCampaignMailJob::dispatch($campaign, $subscriber);
             }

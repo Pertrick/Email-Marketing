@@ -32,8 +32,9 @@ class SendCampaignMailJob implements ShouldQueue
 
     private function sendMail($subscriber, $campaign): void
     {
+        $trackingToken = $subscriber->pivot->tracking_token;
         Mail::to($subscriber)
-            ->send(new CampaignMail($campaign, $subscriber));
+            ->send(new CampaignMail($campaign, $subscriber, $trackingToken));
 
             try{
                 $campaign->subscribers()->updateExistingPivot($subscriber,['mail_sent_at' => now()], false);

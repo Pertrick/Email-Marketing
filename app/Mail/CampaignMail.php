@@ -18,15 +18,17 @@ class CampaignMail extends Mailable implements ShouldQueue
 
     public $subscriber;
     public $campaign;
+    public $trackingToken;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($campaign, $subscriber)
+    public function __construct($campaign, $subscriber,   $trackingToken)
     {
         $this->campaign = $campaign;
         $this->subscriber = $subscriber;
+        $this->trackingToken = $trackingToken;
     }
 
     /**

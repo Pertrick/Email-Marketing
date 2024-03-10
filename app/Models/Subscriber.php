@@ -19,6 +19,6 @@ class Subscriber extends Model
 
 
     public function campaigns(){
-        return $this->belongsToMany(Campaign::class);
+        return $this->belongsToMany(Campaign::class)->withPivot(['tracking_token','mail_sent_at']);
     }
 }

@@ -17,7 +17,7 @@ class CampaignService
 
     public function storeCampaignSubscriber($campaignArray)
     {
-       
+
         info($campaignArray);
 
         Log::info("CampaignService -> campaignArray");
@@ -30,7 +30,7 @@ class CampaignService
 
 
         try {
-            return  DB::transaction(function () use ($campaignArray,$campaign) {
+            return  DB::transaction(function () use ($campaignArray, $campaign) {
                 $campaignModel = Campaign::create([
                     "name" => $campaign['title'],
                     "reply_to" => $campaign['from_email'],
@@ -39,10 +39,10 @@ class CampaignService
                     "delivery_date" => $campaign['schedule_date'],
                     "content" => $campaign['content']
                 ]);
-            
+
                 $campaignSubscribers = $campaignArray['subscribers'];
                 echo json_encode($campaignSubscribers);
-            
+
                 foreach ($campaignSubscribers as $subscriberData) {
                     $subscriber = Subscriber::create([
                         "name" => $subscriberData['fname'],
@@ -50,19 +50,17 @@ class CampaignService
                         "phone" => $subscriberData['phone'],
                         "country" => $subscriberData['country']
                     ]);
-            
-                    $campaignModel->subscribers()->attach($subscriber);
+
+                    $trackingToken = 'token_'. rand(). '_'.time();
+
+                    $campaignModel->subscribers()->attach($subscriber, ['tracking_token' => $trackingToken]);
                 }
-    
+
                 return $campaignModel;
             });
-    
-        }
-        catch (\Exception $e) {
+        } catch (\Exception $e) {
             Log::error('Error creating campaign: ' . $e->getMessage());
             return null;
         }
-        
     }
-
 }
